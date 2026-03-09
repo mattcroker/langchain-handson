@@ -1,0 +1,48 @@
+# --- API Keys & Secrets (CRITICAL) ---
+.env
+.env.local
+.flaskenv
+*.secret
+credentials.json
+
+# --- Python / Virtual Environments ---
+venv/
+.venv/
+env/
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Byte-compiled / optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- LangChain / Data / Vector Stores ---
+# Ignore local vector databases (like ChromaDB or FAISS indexes)
+.chroma/
+faiss_index/
+vector_store/
+*.db
+*.sqlite
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
